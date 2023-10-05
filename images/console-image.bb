@@ -34,6 +34,7 @@ EXTRA_TOOLS = " \
     parted \
     procps \
     sysfsutils \
+    systemd-analyze \
     tcpdump \
     util-linux \
     util-linux-blkid \
