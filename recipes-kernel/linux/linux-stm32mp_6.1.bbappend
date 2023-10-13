@@ -1,7 +1,7 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/linux-stm32mp:"
 
-SRC_URI += "file://custom-config"
+SRC_URI += "file://trimmed-config"
 
 KERNEL_DEFCONFIG = ""
 
-KERNEL_EXTERNAL_DEFCONFIG = "custom-config"
+KERNEL_EXTERNAL_DEFCONFIG = "trimmed-config"
