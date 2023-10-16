@@ -67,14 +67,17 @@ If you change any of these, make sure the user running bitbake can write to thes
 
 Invoke the build by first sourcing the Yocto environment then running bitbake the build tool.
 
-Make sure to the 'build' directory location we configured or the oe-init-build-env script will
-create a build directory in whatever directory you are in with Yocto defaults.
-
 The oe-init-build-env script will drop you in the build directory.
 
     ~$ source poky-mickledore/oe-init-build-env ~/stm32mp1/build
     ...
     ~/stm32mp1/build$
+
+
+NOTE: Make sure to include the 'build' directory location as an argument to the oe-init-build-env
+script or it will create a build directory in whatever directory you are currently in.
+Not what you usually want.
+
 
 Invoke the build of one of the images. Start with the console-image as all the others build
 on it.
