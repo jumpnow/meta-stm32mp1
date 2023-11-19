@@ -2,7 +2,7 @@
 
 Source the Yocto environment as usual
 
-    ~$ source poky-mickledore/oe-init-build-env ~/stm32mp1/build
+    ~$ source poky-nanbield/oe-init-build-env ~/stm32mp1/build
 
     ### Shell environment set up for builds. ###
 

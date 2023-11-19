@@ -1,26 +1,26 @@
 This layer depends on:
 
     URI: git://git.yoctoproject.org/poky.git
-    branch: mickledore
+    branch: nanbield
 
     URI: git://git.openembedded.org/meta-openembedded
-    branch: mickledore
+    branch: nanbield
 
     URI: https://code.qt.io/yocto/meta-qt6.git
-    branch: 6.5
+    branch: lts-6.5
 
     URI: git://git.yoctoproject.org/meta-security.git
-    branch: mickledore
+    branch: nanbield
 
     URI: https://github.com/STMicroelectronics/meta-st-stm32mp.git
-    branch: mickledore
+    branch: nanbield
 
 Latest commits:
 
-    poky 7235399a86
-    meta-openembedded aa5e8edab
-    meta-qt6 2e75150
-    meta-security d7db0a3
-    meta-st-stm32mp b0af85c
+    poky 2e9c2a2381
+    meta-openembedded 1750c66ae
+    meta-qt6 e9d8dcd
+    meta-security 5938fa5
+    meta-st-stm32mp eccd561
 
 meta-stm32mp1 layer maintainer: Scott Ellis <gitbucket306@protonmail.com>

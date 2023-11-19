@@ -1,7 +1,5 @@
 # Local configuration for meta-stm32mp1 images
-# Yocto Project 4.2 Poky distribution [mickledore] branch
-
-BBMASK += "recipes-devtools/gcc/gcc-source_12.2.bbappend"
+# Yocto Project 4.3 Poky distribution [nanbield] branch
 
 GLIBC_GENERATE_LOCALES = "en_US.UTF-8"
 
@@ -17,7 +15,7 @@ MACHINE = "stm32mp1"
 
 PREFERRED_PROVIDER_virtual/kernel = "linux-stm32mp"
 
-#DL_DIR = "/src/mickledore"
+#DL_DIR = "/src/nanbield"
 #SSTATE_DIR = "/oe5/stm32mp1/sstate-cache"
 #TMPDIR = "/oe5/stm32mp1/tmp"
 

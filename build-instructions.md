@@ -18,19 +18,19 @@ Clone the repos listed in the README.md with the branches indicated
 
 Start with the high-level poky repo
 
-    ~$ git clone -b mickledore git://git.yoctoproject.org/poky.git poky-mickledore
+    ~$ git clone -b nanbield git://git.yoctoproject.org/poky.git poky-nanbield
 
-Clone the remaining repos under poky-mickledore
+Clone the remaining repos under poky-nanbield
 
-    ~$ cd poky-mickledore
+    ~$ cd poky-nanbield
 
-    ~/poky-mickledore$ git clone -b mickledore git://git.openembedded.org/meta-openembedded.git
+    ~/poky-nanbield$ git clone -b nanbield git://git.openembedded.org/meta-openembedded.git
 
-    ~/poky-mickledore$ git clone -b mickledore git://git.yoctoproject.org/meta-security.git
+    ~/poky-nanbield$ git clone -b nanbield git://git.yoctoproject.org/meta-security.git
 
-    ~/poky-mickledore$ git clone -b 6.5 https://code.qt.io/yocto/meta-qt6.git
+    ~/poky-nanbield$ git clone -b 6.5 https://code.qt.io/yocto/meta-qt6.git
 
-    ~/poky-mickledore$ git clone -b mickledore https://github.com/STMicroelectronics/meta-st-stm32mp.git
+    ~/poky-nanbield$ git clone -b nanbield https://github.com/STMicroelectronics/meta-st-stm32mp.git
 
 
 Then clone the repo where I am experimenting with customizations.
@@ -42,7 +42,7 @@ Do this in under another directory (again to follow my example conventions).
 
 Clone the custom repo
 
-    ~/stm32mp1$ git clone -b mickledore https://github.com/jumpnow/meta-stm32mp1.git
+    ~/stm32mp1$ git clone -b nanbield https://github.com/jumpnow/meta-stm32mp1.git
 
 Create a build configuration directory
 
@@ -69,7 +69,7 @@ Invoke the build by first sourcing the Yocto environment then running bitbake th
 
 The oe-init-build-env script will drop you in the build directory.
 
-    ~$ source poky-mickledore/oe-init-build-env ~/stm32mp1/build
+    ~$ source poky-nanbield/oe-init-build-env ~/stm32mp1/build
     ...
     ~/stm32mp1/build$
 
