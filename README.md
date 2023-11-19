@@ -17,10 +17,10 @@ This layer depends on:
 
 Latest commits:
 
-    poky b8bb4e6cb0
-    meta-openembedded 399688371
-    meta-qt6 a65fb40
+    poky 7235399a86
+    meta-openembedded aa5e8edab
+    meta-qt6 2e75150
     meta-security d7db0a3
-    meta-st-stm32mp 6d84bde
+    meta-st-stm32mp b0af85c
 
 meta-stm32mp1 layer maintainer: Scott Ellis <gitbucket306@protonmail.com>
