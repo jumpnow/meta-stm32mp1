@@ -7,7 +7,7 @@ This layer depends on:
     branch: nanbield
 
     URI: https://code.qt.io/yocto/meta-qt6.git
-    branch: lts-6.5
+    branch: 6.6
 
     URI: git://git.yoctoproject.org/meta-security.git
     branch: nanbield
@@ -19,7 +19,7 @@ Latest commits:
 
     poky 2e9c2a2381
     meta-openembedded 1750c66ae
-    meta-qt6 e9d8dcd
+    meta-qt6 6354050
     meta-security 5938fa5
     meta-st-stm32mp eccd561
 
