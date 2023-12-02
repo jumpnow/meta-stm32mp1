@@ -8,3 +8,5 @@ Tested targets are:
     console-dev-image
     sdl2-dev-image
     qt6-image
+    weston-image
+    weston-dev-image
