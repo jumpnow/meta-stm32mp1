@@ -22,6 +22,8 @@ DEV_SDK = " \
     libtool \
     ltrace \
     make \
+    meson \
+    ninja \
     perl-modules \
     pkgconfig \
     python3-modules \
