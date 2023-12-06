@@ -10,6 +10,13 @@ FONTS = " \
     ttf-bitstream-vera \
 "
 
+COMM_STUFF = " \
+    mbedtls-dev \
+    nng-dev nng-tools \
+    protobuf-dev \
+    protobuf-c-dev \
+"
+
 GTK_STUFF = " \
     gtk+3-dev \
     gtkmm3-dev \
@@ -28,6 +35,7 @@ WESTON_STUFF = " \
 
 IMAGE_INSTALL += " \
     ${FONTS} \
+    ${COMM_STUFF} \
     ${GTK_STUFF} \
     ${TSLIB} \
     ${WESTON_STUFF} \
