@@ -13,7 +13,6 @@ BBLAYERS ?= " \
   ${HOME}/poky-nanbield/meta-openembedded/meta-perl \
   ${HOME}/poky-nanbield/meta-openembedded/meta-python \
   ${HOME}/poky-nanbield/meta-security \
-  ${HOME}/poky-nanbield/meta-qt6 \
   ${HOME}/poky-nanbield/meta-st-stm32mp \
   ${HOME}/stm32mp1/meta-stm32mp1 \
 "
