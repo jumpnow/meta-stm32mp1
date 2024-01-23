@@ -22,7 +22,8 @@ GTK_STUFF = " \
     gtkmm3 \
 "
 
-TSLIB = " \
+TS_STUFF = " \
+    evtest \
     tslib-conf \
     tslib-calibrate \
     tslib \
@@ -37,7 +38,7 @@ IMAGE_INSTALL += " \
     ${FONTS} \
     ${COMM_STUFF} \
     ${GTK_STUFF} \
-    ${TSLIB} \
+    ${TS_STUFF} \
     ${WESTON_STUFF} \
 "
 

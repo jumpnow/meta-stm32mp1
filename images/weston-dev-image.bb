@@ -11,8 +11,6 @@ FONTS = " \
 "
 
 NET_STUFF = " \
-    mbedtls-dev \
-    mbedtls-programs \
     nng-dev \
     nng-tools \
     protobuf-dev \
@@ -24,7 +22,12 @@ GTK_STUFF = " \
     gtkmm3-dev \
 "
 
-TSLIB = " \
+TS_STUFF = " \
+    evtest \
+    evtest-dev \
+    libinput-bin \
+    libinput-dbg \
+    libinput-dev \
     tslib-conf \
     tslib-calibrate \
     tslib \
@@ -32,6 +35,7 @@ TSLIB = " \
 
 WESTON_STUFF = " \
     weston-dev \
+    weston-examples \
     weston-init \
 "
 
@@ -39,7 +43,7 @@ IMAGE_INSTALL += " \
     ${FONTS} \
     ${NET_STUFF} \
     ${GTK_STUFF} \
-    ${TSLIB} \
+    ${TS_STUFF} \
     ${WESTON_STUFF} \
 "
 
