@@ -20,6 +20,7 @@ COMM_STUFF = " \
 GTK_STUFF = " \
     gtk+3 \
     gtkmm3 \
+    gtk4 \
 "
 
 TS_STUFF = " \
