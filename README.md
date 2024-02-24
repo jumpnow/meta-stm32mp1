@@ -12,11 +12,15 @@ This layer depends on:
     URI: https://github.com/STMicroelectronics/meta-st-stm32mp.git
     branch: nanbield
 
+    URI: https://code.qt.io/yocto/meta-qt6.git
+    branch: 6.6
+
 Latest commits:
 
-    poky d3b27346c3
+    poky 1a5c00f00c
     meta-openembedded da9063bdf
     meta-security 5938fa5
     meta-st-stm32mp eccd561
+    meta-qt6 aea4ee8
 
 meta-stm32mp1 layer maintainer: Scott Ellis <gitbucket306@protonmail.com>
