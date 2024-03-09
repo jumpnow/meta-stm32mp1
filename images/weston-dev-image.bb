@@ -10,13 +10,6 @@ FONTS = " \
     ttf-bitstream-vera \
 "
 
-NET_STUFF = " \
-    nng-dev \
-    nng-tools \
-    protobuf-dev \
-    protobuf-c-dev \
-"
-
 GTK_STUFF = " \
     gtk+3-dev \
     gtkmm3-dev \
@@ -42,7 +35,6 @@ WESTON_STUFF = " \
 
 IMAGE_INSTALL += " \
     ${FONTS} \
-    ${NET_STUFF} \
     ${GTK_STUFF} \
     ${TS_STUFF} \
     ${WESTON_STUFF} \
