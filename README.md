@@ -13,7 +13,7 @@ This layer depends on:
     branch: nanbield
 
     URI: https://code.qt.io/yocto/meta-qt6.git
-    branch: 6.6
+    branch: 6.7
 
 Latest commits:
 
@@ -21,6 +21,4 @@ Latest commits:
     meta-openembedded da9063bdf
     meta-security 5938fa5
     meta-st-stm32mp eccd561
-    meta-qt6 aea4ee8
-
-meta-stm32mp1 layer maintainer: Scott Ellis <gitbucket306@protonmail.com>
+    meta-qt6 79b82fe
