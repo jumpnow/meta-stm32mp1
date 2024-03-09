@@ -7,6 +7,6 @@ Tested targets are:
 
     console-image
     console-dev-image
-    weston-image
-    weston-dev-image
+    opencv-dev-image
+    qt6-image
 
