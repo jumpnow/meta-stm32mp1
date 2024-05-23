@@ -1,5 +1,5 @@
 # Local configuration for meta-stm32mp1 images
-# Yocto Project 4.3 Poky distribution [nanbield] branch
+# Yocto Project 5.0 Poky distribution [scarthgap] branch
 
 GLIBC_GENERATE_LOCALES = "en_US.UTF-8"
 
@@ -18,7 +18,7 @@ PREFERRED_PROVIDER_virtual/kernel = "linux-stm32mp"
 IMAGE_ROOTFS_MAXSIZE = "3145728"
 IMAGE_ROOTFS_SIZE = "3145728"
 
-#DL_DIR = "/src/nanbield"
+#DL_DIR = "/src/scarthgap"
 #SSTATE_DIR = "/oe5/stm32mp1/sstate-cache"
 #TMPDIR = "/oe5/stm32mp1/tmp"
 
