@@ -23,16 +23,26 @@ DEV_SDK = " \
     libtool \
     ltrace \
     make \
-    meson \
     ninja \
-    perl-modules \
     pkgconfig \
     python3-modules \
     strace \
 "
 
+OPENCV_DEV = " \
+    libopencv-core \
+    libopencv-core-dev \
+    libopencv-features2d \
+    libopencv-features2d-dev \
+    libopencv-imgproc \
+    libopencv-imgproc-dev \
+    libopencv-shape \
+    libopencv-shape-dev \
+"
+
 IMAGE_INSTALL += " \
     ${DEV_SDK} \
+    ${OPENCV_DEV} \
 "
 
 export IMAGE_BASENAME = "console-dev-image"

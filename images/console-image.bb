@@ -24,7 +24,7 @@ EXTRA_TOOLS = " \
     grep \
     i2c-tools \
     iperf3 \
-    iproute2 \
+    iproute2-ifstat iproute2-ip iproute2-nstat iproute2-ss \
     iptables \
     less \
     lsof \
@@ -38,6 +38,7 @@ EXTRA_TOOLS = " \
     util-linux \
     util-linux-blkid \
     unzip \
+    usbutils \
     vim \
     wget \
     zip \
