@@ -1,5 +1,5 @@
 # Local configuration for meta-stm32mp1 images
-# Yocto Project 5.1 Poky distribution [styhead] branch
+# Yocto Project 5.2 Poky distribution [walnascar] branch
 
 GLIBC_GENERATE_LOCALES = "en_US.UTF-8"
 
@@ -18,7 +18,7 @@ PREFERRED_PROVIDER_virtual/kernel = "linux-stm32mp"
 IMAGE_ROOTFS_MAXSIZE = "3145728"
 IMAGE_ROOTFS_SIZE = "3145728"
 
-#DL_DIR = "/src/styhead"
+#DL_DIR = "/src/walnascar"
 #SSTATE_DIR = "/oe5/stm32mp1/sstate-cache"
 #TMPDIR = "/oe5/stm32mp1/tmp"
 
@@ -27,7 +27,7 @@ PACKAGE_CLASSES = "package_ipk"
 
 SDKMACHINE = "x86_64"
 
-EXTRA_IMAGE_FEATURES = "debug-tweaks"
+EXTRA_IMAGE_FEATURES = "empty-root-password allow-empty-password allow-root-login"
 
 PATCHRESOLVE = "noop"
 RM_OLD_IMAGE = "1"

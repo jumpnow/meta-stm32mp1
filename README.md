@@ -1,24 +1,24 @@
 This layer depends on:
 
     URI: git://git.yoctoproject.org/poky.git
-    branch: styhead
+    branch: walnascar
 
     URI: git://git.openembedded.org/meta-openembedded
-    branch: styhead
+    branch: walnascar
 
     URI: git://git.yoctoproject.org/meta-security.git
-    branch: styhead
+    branch: walnascar
 
     URI: https://github.com/STMicroelectronics/meta-st-stm32mp.git
-    branch: styhead
+    branch: walnascar
 
     URI: https://code.qt.io/yocto/meta-qt6.git
     branch: 6.9
 
 Latest commits:
 
-    poky f57dc43765
-    meta-openembedded c93994f1bb
-    meta-security e2c44c8
-    meta-st-stm32mp 23fe93b
+    poky fd9b605507
+    meta-openembedded 2169c9afcc
+    meta-security 784ca4b
+    meta-st-stm32mp e8f1655
     meta-qt6 47a2d07
