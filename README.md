@@ -13,7 +13,7 @@ This layer depends on:
     branch: walnascar
 
     URI: https://code.qt.io/yocto/meta-qt6.git
-    branch: 6.9
+    branch: 6.10
 
 Latest commits:
 
@@ -21,4 +21,4 @@ Latest commits:
     meta-openembedded 2169c9afcc
     meta-security 784ca4b
     meta-st-stm32mp e8f1655
-    meta-qt6 a590352
+    meta-qt6 cd5e41c
