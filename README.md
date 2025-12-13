@@ -21,4 +21,4 @@ Latest commits:
     meta-openembedded 07330a98cf
     meta-security 1f7eeb8
     meta-st-stm32mp e8f1655
-    meta-qt6 14cc9d1
+    meta-qt6 efdcfa0
